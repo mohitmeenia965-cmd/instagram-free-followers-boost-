@@ -3,81 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohit's Website</title>
+<title>InstaBoost</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f4f4;
+background:#0f172a;
+color:white;
 }
 
 header{
-    background:#0077ff;
-    color:white;
-    text-align:center;
-    padding:30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#111827;
 }
 
-section{
-    max-width:800px;
-    margin:20px auto;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.1);
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00d4ff;
 }
 
-button{
-    background:#0077ff;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:6px;
-    cursor:pointer;
-    font-size:16px;
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
 }
 
-button:hover{
-    background:#005ad1;
+.hero{
+text-align:center;
+padding:80px 20px;
 }
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#222;
-    color:white;
-    margin-top:30px;
+.hero h1{
+font-size:45px;
+margin-bottom:15px;
 }
-</style>
 
-</head>
-<body>
-
-<header>
-<h1>Welcome to Mohit's Website</h1>
-<p>My First Website</p>
-</header>
-
-<section>
-<h2>About Me</h2>
-<p>Hello! Mera naam Mohit hai. Yeh meri pehli website hai jo HTML, CSS aur JavaScript se bani hai.</p>
-
-<button onclick="hello()">Click Me</button>
-
-<p id="msg"></p>
-</section>
-
-<footer>
-© 2026 Mohit's Website
-</footer>
-
-<script>
-function hello(){
-document.getElementById("msg").innerHTML="🎉 Welcome Mohit! Button Successfully Clicked.";
+.hero p{
+color:#cbd5e1;
+margin-bottom:30px;
 }
-</script>
 
-</body>
-</html># repository-name-my-website-mohit-webside-
-Description : My first website ()
+input{
+width:320px;
+padding:14px;
+border:none;
+border-radius:8px;
+font-size:16
