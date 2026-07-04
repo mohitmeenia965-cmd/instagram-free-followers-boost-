@@ -164,7 +164,7 @@ return;
 }
 
 document.getElementById("result").innerHTML=
-"Analysis complete for <b>@"+user+"</b><br><br>Estimated Engagement: Good ✅";
+"Analysis complete for <b>@"+user+"</b><br><br>Estimated Engagement: your 100 ✅";
 }
 </script>
 
