@@ -118,7 +118,7 @@ margin-top:40px;
 
 <section class="hero">
 
-<h1>Grow Your Instagram followers</h1>
+<h1>Grow Your Instagram Followers</h1>
 
 <p>Analyze your profile, generate hashtags and improve your content.</p>
 
@@ -164,14 +164,12 @@ return;
 }
 
 document.getElementById("result").innerHTML=
-"Analysis complete for <b>@"+user+"</b><br><br>Estimated Engagement:
- your 100 followers ✅";
+"Analysis complete for <b>@"+user+"</b><br><br>Estimated Engagement: your 100 followers ✅";
 }
-
 </script>
 
 <body>
-<h1 style="color:blue;">MOHIT FIRST FILE</h1>
+<h1 style="color:red;">MOHIT FIRST FILE</h1>
 
 <header>
 ...
