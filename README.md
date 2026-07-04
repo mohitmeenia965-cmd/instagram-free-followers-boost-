@@ -5,7 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>InstaBoost</title>
 
-<style>
+<script>
+function analyze(){
+
+let user=document.getElementById("username").value;
+
+if(user==""){
+document.getElementById("result").innerHTML="Please enter a username.";
+return;
+}
+
+document.getElementById("result").innerHTML =
+"Analysis complete for <b>@"+user+"</b><br><br>" +
+"Estimated Engagement: Good ✅<br><br>" +
+"✅ Demo simulation completed successfully.";
+
+}
+</script>
+
 *{
 margin:0;
 padding:0;
